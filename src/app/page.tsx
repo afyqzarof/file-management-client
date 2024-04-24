@@ -5,9 +5,11 @@ import Link from "next/link";
 
 export default function Home() {
   const [images, setImages] = useState([]);
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
   useEffect(() => {
     const getData = async () => {
-      const { data } = await axios.get("http://localhost:8080/files/all");
+      const { data } = await axios.get(`${baseUrl}/files/all`);
 
       setImages(data);
     };
@@ -25,7 +27,7 @@ export default function Home() {
               key={image.id}
               className="w-[20%] p-2">
               <img
-                src={`http://localhost:8080/image/${image.filename}`}
+                src={`${baseUrl}/image/${image.filename}`}
                 alt={image.name}
               />
               <h3 className="text-2xl font-thin">{image.name}</h3>
