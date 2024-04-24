@@ -1,4 +1,5 @@
 "use client";
+import { ModalDelete } from "@/components/ModalDelete";
 import { ModalEdit } from "@/components/ModalEdit";
 import axios from "axios";
 import { useParams } from "next/navigation";
@@ -39,9 +40,7 @@ export default function ImagePage() {
           description={image.description}
           id={image.id}
         />
-        <button className="px-2 py-1 rounded bg-red-700 text-white">
-          Delete
-        </button>
+        <ModalDelete name={image.name} id={image.id} />
       </section>
     </main>
   );
