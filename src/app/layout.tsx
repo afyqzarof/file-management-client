@@ -18,12 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="p-6 flex justify-between border-b-2">
+        <header className="flex justify-between border-b-2 p-6">
           <Link href={"/"} className="text-3xl">
             File Management System
           </Link>
 
-          <Link href="/upload" className=" bg-black text-white p-3 rounded">
+          <Link href="/upload" className=" rounded bg-black p-3 text-white">
             Upload Image
           </Link>
         </header>
