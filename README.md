@@ -4,7 +4,11 @@
 
 ## Overview
 
-A small project to store image files.
+### A small project to upload/store image files.
+<img width="1679" alt="Screenshot 2024-04-25 at 12 29 35 PM" src="https://github.com/afyqzarof/file-management-client/assets/83950596/63d82262-5e4f-41af-a071-e764162e4d23">
+<img width="1679" alt="Screenshot 2024-04-25 at 12 29 46 PM" src="https://github.com/afyqzarof/file-management-client/assets/83950596/981b1c1f-b571-4667-890b-dc6a6064e403">
+<img width="1680" alt="Screenshot 2024-04-25 at 12 29 55 PM" src="https://github.com/afyqzarof/file-management-client/assets/83950596/99a564b5-11f9-42a4-b0b0-1e744fe072ce">
+
 
 ## To run:
 
